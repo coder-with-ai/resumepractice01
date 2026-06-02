@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <style>
+        /* Basic Reset & Typography */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        
+        /* Container styling */
+        .container {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Header styling */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #333;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #2c3e50;
+        }
+        header p {
+            margin: 5px 0 0;
+            color: #666;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section styling */
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        h3 {
+            margin-bottom: 5px;
+            color: #34495e;
+        }
+        
+        /* Experience & Education lists */
+        .item-details {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            color: #7f8c8d;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin-top: 0;
+            padding-left: 20px;
+        }
+
+        /* Skills grid */
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li {
+            background-color: #ecf0f1;
+            padding: 5px 12px;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Your Name Here</h1>
+            <p>Professional Title (e.g., Software Engineer | Marketing Specialist)</p>
+            <p class="contact-info">
+                Email: <a href="mailto:your.email@example.com">your.email@example.com</a> | 
+                Phone: (123) 456-7890 | 
+                Location: City, State
+            </p>
+            <p class="contact-info">
+                <a href="#" target="_blank">LinkedIn</a> | 
+                <a href="#" target="_blank">GitHub / Portfolio</a>
+            </p>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p>Write a brief 3-4 sentence paragraph highlighting your core strengths, years of experience, and what you bring to the table. Keep it focused and impactful.</p>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            
+            <div class="job">
+                <h3>Job Title</h3>
+                <div class="item-details">
+                    <span>Company Name - City, State</span>
+                    <span>Month Year - Present</span>
+                </div>
+                <ul>
+                    <li>Action verb describing a key responsibility or achievement (e.g., Increased sales by 20%).</li>
+                    <li>Quantify your results whenever possible to show concrete impact.</li>
+                    <li>Focus on what you accomplished rather than just listing daily duties.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Previous Job Title</h3>
+                <div class="item-details">
+                    <span>Previous Company Name - City, State</span>
+                    <span>Month Year - Month Year</span>
+                </div>
+                <ul>
+                    <li>Spearheaded a project that streamlined workflow and saved 10 hours per week.</li>
+                    <li>Collaborated with cross-functional teams to deliver projects on time.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Degree Name (e.g., Bachelor of Science in Computer Science)</h3>
+                <div class="item-details">
+                    <span>University Name - City, State</span>
+                    <span>Graduation Year</span>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Project Management</li>
+                <li>Data Analysis</li>
+                <li>Communication</li>
+                </ul>
+        </section>
+    </div>
+
+</body>
+</html>
